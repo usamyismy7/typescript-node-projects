@@ -1,3 +1,4 @@
+#! /usr/bin/env node
 import inquirer from "inquirer";
 import chalkAnimation from "chalk-animation";
 import Add from "./operations/add.js";

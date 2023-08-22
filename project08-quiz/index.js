@@ -1,3 +1,4 @@
+#! /usr/bin/env node
 import nanoSpinner from "nanospinner";
 import gradientString from "gradient-string";
 import chalkAnimation from "chalk-animation";

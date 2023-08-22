@@ -11,10 +11,13 @@
     "@types/node": "^20.5.0",
     "typescript": "^5.1.6"
   },
-  "name": "project00-calculator",
+  "name": "calculator-usamy",
   "version": "1.0.0",
   "main": "index.js",
   "type": "module",
+  "bin": {
+    "calculator-usamy": "./index.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

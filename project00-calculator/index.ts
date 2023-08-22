@@ -1,3 +1,5 @@
+#! /usr/bin/env node
+
 import inquirer from "inquirer";
 import chalkAnimation from "chalk-animation";
 
@@ -36,7 +38,7 @@ async function welcome(heading: any) {
         choices: ["Add", "Sub", "Mul", "Div"],
       },
     ])
-    .then((answers) => {
+    .then((answers: any) => {
       let result = 0;
       const num1 = parseFloat(answers.num1);
       const num2 = parseFloat(answers.num2);

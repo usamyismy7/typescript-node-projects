@@ -1,8 +1,11 @@
 {
-  "name": "project08-quiz",
+  "name": "quiz-usamy",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "bin": {
+    "quiz-usamy": "./index.js"
+  },
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
