@@ -1,3 +1,5 @@
+#! /usr/bin/env node
+
 // Number Guessing Game
 
 /*

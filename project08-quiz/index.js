@@ -6,7 +6,7 @@ import Result from "./modules/result.js";
 export let questions = [
     {
         id: 1,
-        Question: "How Many provinces in pakistan",
+        Question: "How many provinces are in Pakistan",
         option: [
             { id: "A", option: "Two" },
             { id: "B", option: "Three" },
@@ -17,10 +17,10 @@ export let questions = [
     },
     {
         id: 2,
-        Question: "Who was the founder of pakistn",
+        Question: "Who was the founder of Pakistan",
         option: [
             { id: "A", option: "Muhammad Ali Jinnah" },
-            { id: "B", option: "Allama Iqbal" },
+            { id: "B", option: "Allama Muhammad Iqbal" },
             { id: "C", option: "Gandi Jee" },
             { id: "D", option: "Nehru Pandit" },
         ],
@@ -28,7 +28,7 @@ export let questions = [
     },
     {
         id: 3,
-        Question: "Karachi is Located near a Arabian Sea ",
+        Question: "Karachi is located near Arabian Sea",
         option: [
             { id: "A", option: "True" },
             { id: "B", option: "False" },
@@ -37,7 +37,7 @@ export let questions = [
     },
     {
         id: 4,
-        Question: "Who is the current prime minister of pakistan",
+        Question: "Who is the current Prime Minister of Pakistan",
         option: [
             { id: "A", option: "Imran Khan" },
             { id: "B", option: "Nawaz Sharif" },
@@ -46,7 +46,7 @@ export let questions = [
     },
     {
         id: 5,
-        Question: "Who is the current president of pakistan",
+        Question: "Who is the current President of Pakistan",
         option: [
             { id: "A", option: "Arif Alvi" },
             { id: "B", option: "Mamnoon Hussain" },

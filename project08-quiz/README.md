@@ -10,7 +10,7 @@ To use this app, you need to have Node.js and npm installed on your machine. The
 npx quiz-usamy
 ```
 
-## Technologies
+## Technologies Used
 
 - TypeScipt
 - Node.js
