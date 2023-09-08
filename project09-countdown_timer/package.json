@@ -1,0 +1,24 @@
+{
+  "name": "countdown_timer-usamy",
+  "version": "1.0.0",
+  "description": "A countdown timer using the date module.",
+  "main": "index.js",
+  "bin": {
+    "countdown_timer-usamy": "./dist/index.js"
+  },
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^9.2.10",
+    "typescript": "^5.2.2"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.3",
+    "@types/node": "^20.5.9"
+  }
+}
