@@ -7,7 +7,7 @@ A simple command line Todo-list app built using TypeScipt, Node.js and Inquirer.
 To use this app, you need to have Node.js and npm installed on your machine. Then, run the following command in the terminal to install the app:
 
 ```bash
-npx
+npx todo_list-usamy
 ```
 
 ## Technologies Used
@@ -19,3 +19,5 @@ npx
 ## Screenshots
 
 Here are some screenshots of the app in action:
+
+![Alt text](image.png)
