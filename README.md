@@ -1,1 +1,23 @@
-# typescript-node-projects
+# 12 TypeScript Node Projects
+
+All projects are CLI based apps built with TypeScript, Node.js & Inquirer and deployed on npmjs.com.
+
+## Installation
+
+To install the apps, you need to have Node.js and npm installed on your machine. Then, run the following command in the terminal to install the app:
+
+```bash
+npx project_name-usamy
+```
+
+## Technologies Used
+
+- TypeScipt
+- Node.js
+- Inquirer
+
+### additional technologies used on some apps
+
+- chalk-animation
+- nanospinner
+- gradient-string
