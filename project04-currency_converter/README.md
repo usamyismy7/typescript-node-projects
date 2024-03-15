@@ -12,13 +12,19 @@ npx currency_converter-usamy
 
 ## Technologies Used
 
-- TypeScipt
+- TypeScript
 - Node.js
 - Inquirer
 - Axios
+
+## References
+
+[github link](https://github.com/usamyismy7/typescript-node-projects/tree/main/project04-currency_converter)
+
+[npmjs link](https://www.npmjs.com/package/currency_converter-usamy)
 
 ## Screenshots
 
 Here are some screenshots of the app in action:
 
-![Alt text](image.png)
+![Alt text](https://raw.githubusercontent.com/usamyismy7/typescript-node-projects/main/project04-currency_converter/image.png)

@@ -1,7 +1,7 @@
 {
   "name": "currency_converter-usamy",
-  "version": "1.0.0",
-  "description": "",
+  "version": "1.0.1",
+  "description": "The TypeScript console app is used to convert currencies: the users enter a certain amount of money in one currency and set the currency they want to check the monetary value of.",
   "main": "index.js",
   "bin": {
     "currency_converter-usamy": "./dist/index.js"
@@ -10,8 +10,17 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "currency",
+    "converter",
+    "currency_converter",
+    "currency_converter-usamy",
+    "inquirer",
+    "axios",
+    "typescript",
+    "node"
+  ],
+  "author": "Usama Qazi <usamyharis@yahoo.com>",
   "license": "ISC",
   "dependencies": {
     "axios": "^1.5.0",
