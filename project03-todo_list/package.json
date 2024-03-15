@@ -1,6 +1,6 @@
 {
   "name": "todo_list-usamy",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simple command line Todo-list app built using TypeScipt, Node.js and Inquirer.",
   "main": "index.js",
   "type": "module",
@@ -10,8 +10,17 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "todo",
+    "list",
+    "cli",
+    "todo_list",
+    "todo_list-usamy",
+    "typescript",
+    "node",
+    "inquirer"
+  ],
+  "author": "Usama Qazi <usamyharis@yahoo.com>",
   "license": "ISC",
   "dependencies": {
     "inquirer": "^9.2.10"

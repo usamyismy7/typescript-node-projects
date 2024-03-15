@@ -1,6 +1,6 @@
 # Todo List
 
-A simple command line Todo-list app built using TypeScipt, Node.js and Inquirer.
+A simple command line Todo-list app built using TypeScript, Node.js and Inquirer.
 
 ## Installation
 
@@ -12,12 +12,18 @@ npx todo_list-usamy
 
 ## Technologies Used
 
-- TypeScipt
+- TypeScript
 - Node.js
 - Inquirer
 
+## References
+
+[github link](https://github.com/usamyismy7/typescript-node-projects/tree/main/project03-todo_list)
+
+[npmjs link](https://www.npmjs.com/package/todo_list-usamy)
+
 ## Screenshots
 
-Here are some screenshots of the app in action:
+Here is a screenshot of the app in action:
 
-![Alt text](image.png)
+![Alt text](https://raw.githubusercontent.com/usamyismy7/typescript-node-projects/main/project03-todo_list/image.png)
