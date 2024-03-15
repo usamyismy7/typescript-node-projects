@@ -12,7 +12,7 @@ npx number_guessing_game-usamy
 
 ## Technologies Used
 
-- TypeScipt
+- TypeScript
 - Node.js
 - Inquirer
 
