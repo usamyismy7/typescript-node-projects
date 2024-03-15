@@ -12,15 +12,21 @@ npx quiz-usamy
 
 ## Technologies Used
 
-- TypeScipt
+- TypeScript
 - Node.js
 - Inquirer
 - chalk-animation
 - nanospinner
 - gradient-string
 
+## References
+
+[github link](https://github.com/usamyismy7/typescript-node-projects/tree/main/project08-quiz)
+
+[npmjs link](https://www.npmjs.com/package/quiz-usamy)
+
 ## Screenshots
 
 Here are some screenshots of the app in action:
 
-![Alt text](image.png)
+![Alt text](https://raw.githubusercontent.com/usamyismy7/typescript-node-projects/main/project08-quiz/image.png)
