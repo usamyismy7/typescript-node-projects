@@ -12,14 +12,22 @@ npx atm-usamy
 
 ## Technologies Used
 
-- TypeScipt
+- TypeScript
 - Node.js
 - Inquirer
+
+## References
+
+[github link](https://github.com/usamyismy7/typescript-node-projects/tree/main/project02-atm)
+
+[npmjs link](https://www.npmjs.com/package/atm-usamy)
 
 ## Screenshots
 
 Here are some screenshots of the app in action:
 
-![Alt text](image.png)
-![Alt text](image-1.png)
-![Alt text](image-2.png)
+![Alt text](https://raw.githubusercontent.com/usamyismy7/typescript-node-projects/main/project02-atm/image.png)
+
+![Alt text](https://raw.githubusercontent.com/usamyismy7/typescript-node-projects/main/project02-atm/image-1.png)
+
+![Alt text](https://raw.githubusercontent.com/usamyismy7/typescript-node-projects/main/project02-atm/image-2.png)
