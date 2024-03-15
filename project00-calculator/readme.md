@@ -12,14 +12,21 @@ npx calculator-usamy
 
 ## Technologies Used
 
-- TypeScipt
+- TypeScript
 - Node.js
 - Inquirer
 - chalk-animation
+
+## References
+
+[github link](https://github.com/usamyismy7/typescript-node-projects/tree/main/project00-calculator)
+
+[npmjs link](https://www.npmjs.com/package/calculator-usamy)
 
 ## Screenshots
 
 Here are some screenshots of the calculator in action:
 
-![Alt text](image-2.png)
-![Alt text](image-1.png)
+![Alt text](https://raw.githubusercontent.com/usamyismy7/typescript-node-projects/main/project00-calculator/image-2.png)
+
+![Alt text](https://raw.githubusercontent.com/usamyismy7/typescript-node-projects/main/project00-calculator/image-1.png)

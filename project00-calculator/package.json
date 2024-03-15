@@ -12,7 +12,7 @@
     "typescript": "^5.1.6"
   },
   "name": "calculator-usamy",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "index.js",
   "type": "module",
   "bin": {
@@ -21,8 +21,15 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "calculator",
+    "cli",
+    "node",
+    "typescript",
+    "inquirer",
+    "calculator-usamy"
+  ],
+  "author": "Usama Qazi <usamyharis@yahoo.com>",
   "license": "ISC",
   "description": "A simple command line calculator built with Typescript and Node.js."
 }
