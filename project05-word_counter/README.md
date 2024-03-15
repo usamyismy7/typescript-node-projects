@@ -1,6 +1,6 @@
 # Word Counter
 
-The user will enter a english paragraph and all that is needed is to just to implement counting characters and words without whitespaces.
+The user will enter a english paragraph and all that is needed is to just to implement counting characters and words without white spaces.
 
 ## Installation
 
@@ -12,12 +12,18 @@ npx word_counter-usamy
 
 ## Technologies Used
 
-- TypeScipt
+- TypeScript
 - Node.js
 - Inquirer
+
+## References
+
+[github link](https://github.com/usamyismy7/typescript-node-projects/tree/main/project05-word_counter)
+
+[npmjs link](https://www.npmjs.com/package/word_counter-usamy)
 
 ## Screenshots
 
 Here are some screenshots of the app in action:
 
-![Alt text](image.png)
+![Alt text](https://raw.githubusercontent.com/usamyismy7/typescript-node-projects/main/project05-word_counter/image.png)

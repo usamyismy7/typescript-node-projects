@@ -1,6 +1,6 @@
 {
   "name": "word_counter-usamy",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "The user will enter a english paragraph and all that is needed is to just to implement counting characters and words without whitespaces.",
   "main": "index.js",
   "bin": {
@@ -10,8 +10,16 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "word",
+    "counter",
+    "word_counter",
+    "word_counter-usamy",
+    "inquirer",
+    "typescript",
+    "node"
+  ],
+  "author": "Usama Qazi <usamyharis@yahoo.com>",
   "license": "ISC",
   "dependencies": {
     "inquirer": "^9.2.10",
