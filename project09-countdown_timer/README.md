@@ -12,13 +12,20 @@ npx countdown_timer-usamy
 
 ## Technologies Used
 
-- TypeScipt
+- TypeScript
 - Node.js
 - Inquirer
+
+## References
+
+[github link](https://github.com/usamyismy7/typescript-node-projects/tree/main/project09-countdown_timer)
+
+[npmjs link](https://www.npmjs.com/package/countdown_timer-usamy)
 
 ## Screenshots
 
 Here are some screenshots of the app in action:
 
-![Alt text](image.png)
-![Alt text](image-1.png)
+![Alt text](https://raw.githubusercontent.com/usamyismy7/typescript-node-projects/main/project09-countdown_timer/image.png)
+
+![Alt text](https://raw.githubusercontent.com/usamyismy7/typescript-node-projects/main/project09-countdown_timer/image-1.png)

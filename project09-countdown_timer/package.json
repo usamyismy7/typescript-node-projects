@@ -1,6 +1,6 @@
 {
   "name": "countdown_timer-usamy",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A countdown timer using the date module.",
   "main": "index.js",
   "bin": {
@@ -10,8 +10,15 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "countdown",
+    "countdown_timer",
+    "countdown_timer-usamy",
+    "inquirer",
+    "typescript",
+    "node"
+  ],
+  "author": "Usama Qazi <usamyharis@yahoo.com>",
   "license": "ISC",
   "dependencies": {
     "inquirer": "^9.2.10",
