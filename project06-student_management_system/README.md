@@ -18,16 +18,16 @@ npx student_management_system-usamy
 
 ## References
 
-[github link](https://)
+[github link](https://github.com/usamyismy7/typescript-node-projects/tree/main/project06-student_management_system)
 
-[npmjs link](https://)
+[npmjs link](https://npmjs.com/package/student_management_system-usamy)
 
 ## Screenshots
 
 Here are some screenshots of the app in action:
 
-![alt text](./assets/image.png)
+![image 1](https://raw.githubusercontent.com/usamyismy7/typescript-node-projects/main/project06-student_management_system/assets/image.png)
 
-![alt text](./assets/image-1.png)
+![image 2](https://raw.githubusercontent.com/usamyismy7/typescript-node-projects/main/project06-student_management_system/assets/image-1.png)
 
-![alt text](./assets/image-2.png)
+![image 3](https://raw.githubusercontent.com/usamyismy7/typescript-node-projects/main/project06-student_management_system/assets/image-2.png)
