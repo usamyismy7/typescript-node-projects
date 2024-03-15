@@ -24,7 +24,10 @@ npm init
 console.log("Hello World");
 ```
 
-The line below should be added to all files that will be executed through the command line. It's called a Shebang, and basically, it specifies what interpreter the file should be passed to for execution in Unix-like systems.
+The shebang line below should be added to index.js file.
+The shebang is only necessary in the entry point file of your application that is meant to be run directly from the command line. Other modules that are imported don't need the shebang.
+
+The shebang line tells the system that this file should be executed with Node.js. It's especially important if you're developing a CLI (Command Line Interface) application that should be runnable as a command.
 
 ```js
 #!/usr/bin/env node
