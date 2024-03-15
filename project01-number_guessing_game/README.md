@@ -16,9 +16,16 @@ npx number_guessing_game-usamy
 - Node.js
 - Inquirer
 
+## References
+
+[github link](https://github.com/usamyismy7/typescript-node-projects/tree/main/project01-number_guessing_game)
+
+[npmjs link](https://www.npmjs.com/package/number_guessing_game-usamy)
+
 ## Screenshots
 
 Here are some screenshots of the app in action:
 
-![Alt text](image-1.png)
-![Alt text](image.png)
+![Alt text](https://raw.githubusercontent.com/usamyismy7/typescript-node-projects/main/project01-number_guessing_game/image-1.png)
+
+![Alt text](https://raw.githubusercontent.com/usamyismy7/typescript-node-projects/main/project01-number_guessing_game/image.png)
