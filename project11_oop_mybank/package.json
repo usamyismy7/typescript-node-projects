@@ -1,0 +1,31 @@
+{
+  "name": "mybank-usamy",
+  "version": "1.0.0",
+  "description": "This console application manages a simple banking system. It stores customer information including name, gender, age, and mobile number. Customers can debit and credit money from their account, check their balance, and receive alerts for unsuccessful transactions. A $1 fee is applied for credits over $100.",
+  "main": "index.js",
+  "bin": {
+    "mybank-usamy": "./dist/index.js"
+  },
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "bank",
+    "mybank",
+    "mybank-usamy",
+    "inquirer",
+    "typescript",
+    "node"
+  ],
+  "author": "Usama Qazi <usamyharis@yahoo.com>",
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^9.2.16"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7",
+    "@types/node": "^20.11.28",
+    "typescript": "^5.4.2"
+  }
+}
