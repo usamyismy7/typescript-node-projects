@@ -18,6 +18,7 @@ npx project_name-usamy
 
 ### additional technologies used on some apps
 
+- chalk
 - chalk-animation
 - nanospinner
 - gradient-string
