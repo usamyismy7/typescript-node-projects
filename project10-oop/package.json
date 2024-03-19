@@ -1,0 +1,24 @@
+{
+  "name": "project10_oop",
+  "version": "1.0.0",
+  "description": "This project is a simple console based Student Management System. BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH!",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "student_management_system-usamy": "./dist/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Usama Qazi <usamyharis@yahoo.com>",
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^9.2.16"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7",
+    "@types/node": "^20.11.28",
+    "typescript": "^5.4.2"
+  }
+}
