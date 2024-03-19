@@ -1,0 +1,38 @@
+{
+  "dependencies": {
+    "chalk-animation": "^2.0.3",
+    "gradient-string": "^2.0.2",
+    "inquirer": "^9.2.16",
+    "nanospinner": "^1.1.0"
+  },
+  "name": "adventure_game-usamy",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "adventure_game-usamy": "./dist/index.js"
+  },
+  "devDependencies": {
+    "@types/chalk-animation": "^1.6.3",
+    "@types/gradient-string": "^1.1.5",
+    "@types/inquirer": "^9.0.7",
+    "@types/node": "^20.11.29",
+    "typescript": "^5.4.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "adventure",
+    "adventure_game",
+    "game",
+    "adventure_game-usamy",
+    "inquirer",
+    "typescript",
+    "node",
+    "cli"
+  ],
+  "author": "Usama Qazi <usamyharis@yahoo.com>",
+  "license": "ISC",
+  "description": "This project is not GUI-based. It is a CLI-based Adventure Game in TypeScript and Node.js."
+}
