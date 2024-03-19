@@ -30,7 +30,7 @@ npx mybank-usamy
 
 ## References
 
-[github link](https://github.com/usamyismy7/typescript-node-projects/tree/main/project11_oop_mybank)
+[github link](https://github.com/usamyismy7/typescript-node-projects/tree/main/project11-oop_mybank)
 
 [npmjs link](https://www.npmjs.com/package/mybank-usamy)
 
@@ -38,6 +38,6 @@ npx mybank-usamy
 
 Here are some screenshots of the app in action:
 
-![image 1](https://raw.githubusercontent.com/usamyismy7/typescript-node-projects/main/project11_oop_mybank/assets/image.png)
-![image 2](https://raw.githubusercontent.com/usamyismy7/typescript-node-projects/main/project11_oop_mybank/assets/image-1.png)
-![image 3](https://raw.githubusercontent.com/usamyismy7/typescript-node-projects/main/project11_oop_mybank/assets/image-2.png)
+![image 1](https://raw.githubusercontent.com/usamyismy7/typescript-node-projects/main/project11-oop_mybank/assets/image.png)
+![image 2](https://raw.githubusercontent.com/usamyismy7/typescript-node-projects/main/project11-oop_mybank/assets/image-1.png)
+![image 3](https://raw.githubusercontent.com/usamyismy7/typescript-node-projects/main/project11-oop_mybank/assets/image-2.png)
