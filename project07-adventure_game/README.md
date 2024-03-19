@@ -35,13 +35,13 @@ Here are some screenshots of the app in action:
 
 ![image 2](https://raw.githubusercontent.com/usamyismy7/typescript-node-projects/main/project07-adventure_game/assets/image-1.png)
 
+![image 4](https://raw.githubusercontent.com/usamyismy7/typescript-node-projects/main/project07-adventure_game/assets/image-3.png)
+
 ![image 3](https://raw.githubusercontent.com/usamyismy7/typescript-node-projects/main/project07-adventure_game/assets/image-2.png)
 
 ![image 7](https://raw.githubusercontent.com/usamyismy7/typescript-node-projects/main/project07-adventure_game/assets/image-6.png)
 
 ### Exploring More Options
-
-![image 4](https://raw.githubusercontent.com/usamyismy7/typescript-node-projects/main/project07-adventure_game/assets/image-3.png)
 
 ![image 5](https://raw.githubusercontent.com/usamyismy7/typescript-node-projects/main/project07-adventure_game/assets/image-4.png)
 
