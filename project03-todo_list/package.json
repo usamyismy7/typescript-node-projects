@@ -1,6 +1,6 @@
 {
   "name": "todo_list-usamy",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A simple command line Todo-list app built using TypeScipt, Node.js and Inquirer.",
   "main": "index.js",
   "type": "module",
