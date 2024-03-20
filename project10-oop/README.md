@@ -1,21 +1,38 @@
-# Student Management System
+# OOP Explained with a TypeScript Console Application
 
-This project is a simple console based Student Management System. In this project you will be learning how to add new students, how to generate a 5 digit unique studentID for each student, how to enroll students in the given courses. Also, you will be implementing the following operations enroll, view balance, pay tuition fees, show status, etc. The status will show all the details of the student including name, id, courses enrolled and balance.This is one of the best projects to implement the Object Oriented Programming concepts.
+This TypeScript console application demonstrates key Object-Oriented Programming (OOP) concepts. It uses classes and objects (`Person` and `Student`), showcases inheritance (`Student` extends `Person`), encapsulates data and methods within classes, and illustrates polymorphism through method overriding. It's a practical example of OOP in action.
+
+## Details
+
+1. **Classes and Objects**: The `Person` and `Student` classes are defined, and objects are created from these classes.
+2. **Inheritance**: The `Student` class extends the `Person` class, demonstrating inheritance.
+3. **Encapsulation**: Data (properties) and methods are bundled into classes.
+4. **Polymorphism**: The `studentInfo` method in the `Student` class overrides the method in the `Person` class (if it existed).
 
 ## Installation
 
 To use this app, you need to have Node.js and npm installed on your machine.
-Run the following command in the terminal to install the app:
+Run the following command in the terminal (the directory of terminal must be `project10-oop`) to install the app:
 
 ```bash
-npm i number_guessing_game-usamy
+npm install -g
 ```
 
-Then, run the following command to use the app:
+Then, run the following command to run the app:
 
 ```bash
-npx student_management_system-usamy
+npx oop
 ```
+
+## Make changes in the project
+
+If you want to make changes in the project, you should change code of index.ts file at `./src/index.ts`. You can run the following command to compile the TypeScript files:
+
+```bash
+tsc --watch
+```
+
+This will watch for changes in the TypeScript files and compile them to JavaScript files.
 
 ## Technologies Used
 
@@ -23,18 +40,14 @@ npx student_management_system-usamy
 - Node.js
 - Inquirer
 
-## References
-
-[github link](https://github.com/usamyismy7/typescript-node-projects/tree/main/project06-student_management_system)
-
-[npmjs link](https://npmjs.com/package/student_management_system-usamy)
-
 ## Screenshots
 
 Here are some screenshots of the app in action:
 
-![image 1](https://raw.githubusercontent.com/usamyismy7/typescript-node-projects/main/project06-student_management_system/assets/image.png)
+![image 1](https://raw.githubusercontent.com/usamyismy7/typescript-node-projects/main/project10-oop/assets/image.png)
 
-![image 2](https://raw.githubusercontent.com/usamyismy7/typescript-node-projects/main/project06-student_management_system/assets/image-1.png)
+![image 2](https://raw.githubusercontent.com/usamyismy7/typescript-node-projects/main/project10-oop/assets/image-1.png)
 
-![image 3](https://raw.githubusercontent.com/usamyismy7/typescript-node-projects/main/project06-student_management_system/assets/image-2.png)
+![image 3](https://raw.githubusercontent.com/usamyismy7/typescript-node-projects/main/project10-oop/assets/image-2.png)
+
+![image 4](https://raw.githubusercontent.com/usamyismy7/typescript-node-projects/main/project10-oop/assets/image-3.png)

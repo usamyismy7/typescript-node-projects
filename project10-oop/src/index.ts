@@ -1,40 +1,6 @@
-import inquirer from "inquirer";
+#!/usr/bin/env node
 
-const students = [
-  {
-    reg_id: 1,
-    name: "John Doe",
-    gender: "Male",
-    age: 30,
-    course: "Computer Science",
-    department: "Science",
-    personality: "Extrovert",
-    hobby: "Reading",
-    skill: "Programming",
-  },
-  {
-    reg_id: 2,
-    name: "Jane Williams",
-    gender: "Female",
-    age: 25,
-    course: "Software Engineer",
-    department: "Science",
-    personality: "Introvert",
-    hobby: "Writing",
-    skill: "Design",
-  },
-  {
-    reg_id: 3,
-    name: "James Smith",
-    gender: "Male",
-    age: 20,
-    course: "Information Technology",
-    department: "Science",
-    personality: "Mysterious",
-    hobby: "Listening to music",
-    skill: "Problem solving",
-  },
-];
+import inquirer from "inquirer";
 
 class Person {
   hobby: string;
@@ -71,9 +37,7 @@ class Student extends Person {
     hobby: string = "",
     skill: string = ""
   ) {
-    super(personality);
-    super(hobby);
-    super(skill);
+    super(personality, hobby, skill);
     this.reg_id = reg_id;
     this.name = name;
     this.age = age;
@@ -83,17 +47,45 @@ class Student extends Person {
   }
 
   studentInfo(): string {
-    return `Name: ${this.name},
-        ID: ${this.reg_id},
-        Age: ${this.age},
-        Gender: ${this.gender},
-        Course: ${this.course},
-        Department: ${this.department},
-        Personality: ${this.personality},
-        Hobby: ${this.hobby},
-        Skill: ${this.skill}`;
+    return `Name: ${this.name}\nID: ${this.reg_id}\nAge: ${this.age}\nGender: ${this.gender}\nCourse: ${this.course}\nDepartment: ${this.department}\nPersonality: ${this.personality}\nHobby: ${this.hobby}\nSkill: ${this.skill}`;
   }
 }
+
+const students = [
+  new Student(
+    "John Doe",
+    "Extrovert",
+    "Computer Science",
+    "Male",
+    30,
+    "Science",
+    1,
+    "Reading",
+    "Programming"
+  ),
+  new Student(
+    "Jane Williams",
+    "Introvert",
+    "Software Engineer",
+    "Female",
+    25,
+    "Science",
+    2,
+    "Writing",
+    "Design"
+  ),
+  new Student(
+    "James Smith",
+    "Mysterious",
+    "Information Technology",
+    "Male",
+    20,
+    "Science",
+    3,
+    "Listening to music",
+    "Problem solving"
+  ),
+];
 
 function mainMenu() {
   try {
@@ -162,7 +154,7 @@ function newStudent() {
       {
         type: "list",
         name: "gender",
-        message: "Enter student gender: ",
+        message: "Select student gender: ",
         choices: ["Male", "Female"],
         validate: function (value) {
           if (value) {
@@ -172,9 +164,29 @@ function newStudent() {
         },
       },
       {
-        type: "input",
+        type: "list",
         name: "course",
-        message: "Enter student course: ",
+        message: "Select student course: ",
+        choices: [
+          "Computer Science",
+          "Software Engineer",
+          "Information Technology",
+          "Mechanical Engineering",
+          "Civil Engineering",
+          "Electrical Engineering",
+          "Business Studies",
+          "Accounting",
+          "Nursing",
+          "Pharmacy",
+          "Psychology",
+          "Sociology",
+          "Mathematics",
+          "Law",
+          "Political Science",
+          "Economics",
+          "History",
+          "Geography",
+        ],
         validate: function (value) {
           if (value) {
             return true;
@@ -183,9 +195,19 @@ function newStudent() {
         },
       },
       {
-        type: "input",
+        type: "list",
         name: "department",
-        message: "Enter student department: ",
+        message: "Select student department: ",
+        choices: [
+          "Science",
+          "Engineering",
+          "Arts",
+          "Business",
+          "Health Science",
+          "Social Science",
+          "Mathematics",
+          "Law",
+        ],
         validate: function (value) {
           if (value) {
             return true;
@@ -196,8 +218,7 @@ function newStudent() {
       {
         type: "list",
         name: "personality",
-        message:
-          "What is your personality? Type 1 if you like to talk to others and Type 2 if you would rather keep to yourself.",
+        message: "Select student personality: ",
         choices: ["Extrovert", "Introvert", "Mysterious"],
         validate: function (value) {
           if (value === "1" || value === "2" || value === "3") {
@@ -207,9 +228,22 @@ function newStudent() {
         },
       },
       {
-        type: "input",
+        type: "list",
         name: "hobby",
-        message: "Enter student hobby: ",
+        message: "Select student hobby: ",
+        choices: [
+          "Listening to music",
+          "Reading",
+          "Playing sports",
+          "Watching movies",
+          "Writing",
+          "Drawing",
+          "Traveling",
+          "Cooking",
+          "Photography",
+          "Gardening",
+          "Dancing",
+        ],
         validate: function (value) {
           if (value) {
             return true;
@@ -218,9 +252,26 @@ function newStudent() {
         },
       },
       {
-        type: "input",
+        type: "list",
         name: "skill",
-        message: "Enter student skill: ",
+        message: "Select student skill: ",
+        choices: [
+          "Programming",
+          "Design",
+          "Problem solving",
+          "Leadership",
+          "Communication",
+          "Teamwork",
+          "Time management",
+          "Adaptability",
+          "Creativity",
+          "Negotiation",
+          "Critical thinking",
+          "Decision making",
+          "Conflict resolution",
+          "Emotional intelligence",
+          "Stress management",
+        ],
         validate: function (value) {
           if (value) {
             return true;
@@ -230,20 +281,56 @@ function newStudent() {
       },
     ])
     .then(function (answers) {
-      let student = new Student();
-      console.log(student.studentInfo());
+      let student = new Student(
+        answers.name,
+        answers.personality,
+        answers.course,
+        answers.gender,
+        answers.age,
+        answers.department,
+        answers.reg_id,
+        answers.hobby,
+        answers.skill
+      );
+      students.push(student);
+      console.log(
+        "\n# Added student details: #\n" +
+          student.studentInfo() +
+          "\n\n# All students: #\nID: Name"
+      );
+      students.map(function (student) {
+        console.log(student.reg_id + ": " + student.name);
+      });
+      console.log("");
       mainMenu();
     });
 }
 
 function existingStudent() {
-  // ... your code for handling existing students ...
-  // After handling the existing student, call studentInfo and then mainMenu
-  let student = students.find(/* ... */);
-  if (student) {
-    console.log(student.studentInfo());
-  }
-  mainMenu();
+  inquirer
+    .prompt([
+      {
+        type: "list",
+        name: "student",
+        message: "Select a student: ",
+        choices: students.map((student) => ({
+          name: student.name,
+          value: student.reg_id,
+        })),
+      },
+    ])
+    .then(function (answers) {
+      const selectedStudent = students.find(
+        (student) => student.reg_id === answers.student
+      );
+      if (selectedStudent) {
+        console.log(
+          "\nSelected student details:\n" + selectedStudent.studentInfo() + "\n"
+        );
+      } else {
+        console.log("\nStudent not found.\n");
+      }
+      mainMenu();
+    });
 }
-
 mainMenu();

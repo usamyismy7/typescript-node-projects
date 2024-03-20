@@ -1,16 +1,23 @@
 {
-  "name": "project10_oop",
+  "name": "oop",
   "version": "1.0.0",
-  "description": "This project is a simple console based Student Management System. BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH!",
+  "description": "This TypeScript console application demonstrates key Object-Oriented Programming (OOP) concepts. It uses classes and objects (Person and Student), showcases inheritance (Student extends Person), encapsulates data and methods within classes, and illustrates polymorphism through method overriding. It's a practical example of OOP in action.",
   "main": "index.js",
   "type": "module",
   "bin": {
-    "student_management_system-usamy": "./dist/index.js"
+    "oop": "./dist/index.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
+  "keywords": [
+    "oop",
+    "oop_concepts",
+    "cli",
+    "inquirer",
+    "typescript",
+    "node"
+  ],
   "author": "Usama Qazi <usamyharis@yahoo.com>",
   "license": "ISC",
   "dependencies": {
