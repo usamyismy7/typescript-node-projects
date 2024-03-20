@@ -4,7 +4,14 @@ The app will show the students multiple choice questions and prompt the user to 
 
 ## Installation
 
-To use this app, you need to have Node.js and npm installed on your machine. Then, run the following command in the terminal to install the app:
+To use this app, you need to have Node.js and npm installed on your machine.
+Run the following command in the terminal to install the app:
+
+```bash
+npm i quiz-usamy
+```
+
+Then, run the following command to use the app:
 
 ```bash
 npx quiz-usamy
