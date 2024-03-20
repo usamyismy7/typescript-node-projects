@@ -1,6 +1,6 @@
 {
   "name": "currency_converter-usamy",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "The TypeScript console app is used to convert currencies: the users enter a certain amount of money in one currency and set the currency they want to check the monetary value of.",
   "main": "index.js",
   "bin": {

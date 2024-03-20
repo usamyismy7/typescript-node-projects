@@ -4,7 +4,14 @@ The TypeScript console app is used to convert currencies: the users enter a cert
 
 ## Installation
 
-To use this app, you need to have Node.js and npm installed on your machine. Then, run the following command in the terminal to install the app:
+To use this app, you need to have Node.js and npm installed on your machine.
+Run the following command in the terminal to install the app:
+
+```bash
+npm i currency_converter-usamy
+```
+
+Then, run the following command to use the app:
 
 ```bash
 npx currency_converter-usamy
