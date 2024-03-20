@@ -4,7 +4,14 @@ The user will enter a english paragraph and all that is needed is to just to imp
 
 ## Installation
 
-To use this app, you need to have Node.js and npm installed on your machine. Then, run the following command in the terminal to install the app:
+To use this app, you need to have Node.js and npm installed on your machine.
+Run the following command in the terminal to install the app:
+
+```bash
+npm i word_counter-usamy
+```
+
+Then, run the following command to use the app:
 
 ```bash
 npx word_counter-usamy

@@ -1,6 +1,6 @@
 {
   "name": "word_counter-usamy",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "The user will enter a english paragraph and all that is needed is to just to implement counting characters and words without whitespaces.",
   "main": "index.js",
   "bin": {
