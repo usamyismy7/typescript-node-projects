@@ -1,6 +1,6 @@
 {
   "name": "mybank-usamy",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "This console application manages a simple banking system. It stores customer information including name, gender, age, and mobile number. Customers can debit and credit money from their account, check their balance, and receive alerts for unsuccessful transactions. A $1 fee is applied for credits over $100.",
   "main": "index.js",
   "bin": {
