@@ -4,7 +4,14 @@ This guess the number game is a short TypeScript/Node.js project that allows the
 
 ## Installation
 
-To use this app, you need to have Node.js and npm installed on your machine. Then, run the following command in the terminal to install the app:
+To use this app, you need to have Node.js and npm installed on your machine.
+Run the following command in the terminal to install the app:
+
+```bash
+npm i number_guessing_game-usamy
+```
+
+Then, run the following command to use the app:
 
 ```bash
 npx number_guessing_game-usamy
