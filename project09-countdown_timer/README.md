@@ -4,7 +4,14 @@ A countdown timer using the date module.
 
 ## Installation
 
-To use this app, you need to have Node.js and npm installed on your machine. Then, run the following command in the terminal to install the app:
+To use this app, you need to have Node.js and npm installed on your machine.
+Run the following command in the terminal to install the app:
+
+```bash
+npm i countdown_timer-usamy
+```
+
+Then, run the following command to use the app:
 
 ```bash
 npx countdown_timer-usamy
