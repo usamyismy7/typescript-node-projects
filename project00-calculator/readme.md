@@ -4,7 +4,14 @@ A simple command line calculator built with Typescript and Node.js.
 
 ## Installation
 
-To use this calculator, you need to have Node.js and npm installed on your machine. Then, run the following command in the terminal to install the calculator:
+To use this calculator, you need to have Node.js and npm installed on your machine.
+Run the following command in the terminal to install the calculator:
+
+```bash
+npm i calculator-usamy
+```
+
+Then, run the following command to use the calculator:
 
 ```bash
 npx calculator-usamy
