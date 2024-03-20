@@ -4,7 +4,14 @@ This somewhat complex TypeScript/Node.js project is a console-based application.
 
 ## Installation
 
-To use this app, you need to have Node.js and npm installed on your machine. Then, run the following command in the terminal to install the app:
+To use this app, you need to have Node.js and npm installed on your machine.
+Run the following command in the terminal to install the app:
+
+```bash
+npm i atm-usamy
+```
+
+Then, run the following command to use the app:
 
 ```bash
 npx atm-usamy
